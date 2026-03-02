@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "AeroPulse Running Shoes",
+    "category": "Shoes",
+    "price": 129,
+    "rating": 4.8,
+    "description": "Ultra-light mesh runners for all-day comfort and training support.",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 2,
+    "name": "Nomad Urban Backpack",
+    "category": "Accessories",
+    "price": 89,
+    "rating": 4.7,
+    "description": "Minimal everyday backpack with laptop sleeve and waterproof finish.",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 3,
+    "name": "Terra Ceramic Mug Set",
+    "category": "Home",
+    "price": 42,
+    "rating": 4.6,
+    "description": "Hand-finished ceramic mugs for coffee, tea, and cozy mornings.",
+    "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 4,
+    "name": "Luma Desk Lamp",
+    "category": "Home",
+    "price": 74,
+    "rating": 4.5,
+    "description": "Dimmable LED desk lamp with warm and cool temperature modes.",
+    "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 5,
+    "name": "Stride Performance Hoodie",
+    "category": "Apparel",
+    "price": 68,
+    "rating": 4.9,
+    "description": "Soft, breathable hoodie designed for workouts and city commutes.",
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 6,
+    "name": "Orbit Smart Watch",
+    "category": "Electronics",
+    "price": 199,
+    "rating": 4.4,
+    "description": "Track fitness, sleep, and notifications with a 7-day battery life.",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 7,
+    "name": "Drift Wireless Earbuds",
+    "category": "Electronics",
+    "price": 119,
+    "rating": 4.7,
+    "description": "Noise-isolating earbuds with compact charging case and clear call audio.",
+    "image": "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 8,
+    "name": "Atlas Yoga Mat",
+    "category": "Fitness",
+    "price": 55,
+    "rating": 4.6,
+    "description": "Extra-grip mat with cushioned support for studio or home workouts.",
+    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 9,
+    "name": "Crest Stainless Bottle",
+    "category": "Accessories",
+    "price": 35,
+    "rating": 4.5,
+    "description": "Insulated bottle that keeps drinks cold for 24 hours or hot for 12.",
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 10,
+    "name": "Harbor Linen Throw",
+    "category": "Home",
+    "price": 64,
+    "rating": 4.7,
+    "description": "Lightweight linen throw blanket with soft texture and breathable weave.",
+    "image": "https://images.unsplash.com/photo-1616628182509-6f4cfd6f6c2c?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 11,
+    "name": "Flux Travel Organizer",
+    "category": "Accessories",
+    "price": 49,
+    "rating": 4.6,
+    "description": "Slim organizer for cables, chargers, and travel essentials.",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 12,
+    "name": "Nova Casual Sneakers",
+    "category": "Shoes",
+    "price": 98,
+    "rating": 4.8,
+    "description": "Clean everyday sneakers with cushioned sole and flexible fit.",
+    "image": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?auto=format&fit=crop&w=800&q=80"
+  }
+]

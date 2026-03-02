@@ -1,77 +1,13 @@
 import './App.css';
 import { useMemo, useState } from 'react';
-
-const PRODUCTS = [
-  {
-    id: 1,
-    name: 'AeroPulse Running Shoes',
-    category: 'Shoes',
-    price: 129,
-    rating: 4.8,
-    description: 'Ultra-light mesh runners for all-day comfort and training support.',
-    image:
-      'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80',
-  },
-  {
-    id: 2,
-    name: 'Nomad Urban Backpack',
-    category: 'Accessories',
-    price: 89,
-    rating: 4.7,
-    description: 'Minimal everyday backpack with laptop sleeve and waterproof finish.',
-    image:
-      'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80',
-  },
-  {
-    id: 3,
-    name: 'Terra Ceramic Mug Set',
-    category: 'Home',
-    price: 42,
-    rating: 4.6,
-    description: 'Hand-finished ceramic mugs for coffee, tea, and cozy mornings.',
-    image:
-      'https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=800&q=80',
-  },
-  {
-    id: 4,
-    name: 'Luma Desk Lamp',
-    category: 'Home',
-    price: 74,
-    rating: 4.5,
-    description: 'Dimmable LED desk lamp with warm and cool temperature modes.',
-    image:
-      'https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=800&q=80',
-  },
-  {
-    id: 5,
-    name: 'Stride Performance Hoodie',
-    category: 'Apparel',
-    price: 68,
-    rating: 4.9,
-    description: 'Soft, breathable hoodie designed for workouts and city commutes.',
-    image:
-      'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80',
-  },
-  {
-    id: 6,
-    name: 'Orbit Smart Watch',
-    category: 'Electronics',
-    price: 199,
-    rating: 4.4,
-    description: 'Track fitness, sleep, and notifications with a 7-day battery life.',
-    image:
-      'https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80',
-  },
-];
+import PRODUCTS from './products.json';
 
 const CATEGORIES = ['All', ...new Set(PRODUCTS.map((item) => item.category))];
 
 const formatCurrency = (amount) =>
-  new Intl.NumberFormat('en-US', {
-    style: 'currency',
-    currency: 'USD',
+  `Php ${new Intl.NumberFormat('en-PH', {
     maximumFractionDigits: 0,
-  }).format(amount);
+  }).format(amount)}`;
 
 function App() {
   const [category, setCategory] = useState('All');
